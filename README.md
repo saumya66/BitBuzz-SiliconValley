@@ -7,6 +7,6 @@ Recently, I also got interested in investing in crypto and bought some too. Thus
 So, I thought why not try to make that, and after some days I made it work and I call it BitBuzz and it is really cool and now you can use it too as I have deployed it using Netlify here: [BitBuzz](https://bitbuzz.netlify.app/)
 
 I also created a video on it my channel and I recommend you watch it :
-%[https://youtu.be/SRi0SZoGXkw]
+[Video-FutureDriven](https://youtu.be/SRi0SZoGXkw
 
 ## Do use it and let me know your thoughts on it! 
