@@ -1,0 +1,17 @@
+.converter {
+	border: 1px;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 5px 5px 20px;
+
+	background: rgba(0, 0, 0, 0.5);
+}
+.result {
+	font-size: 25px;
+	font-weight: 500;
+}
+h5,
+p {
+	color: white;
+}
