@@ -1,8 +1,9 @@
 .App {
 	height: 100vh;
 	width: 100vw;
-	background-image: url("./assets/sv.jpg");
+	background-image: url("./assets/btc.jpg");
 	background-size: 95rem;
+	position: absolute;
 }
 @media only screen and (max-width: 600px) {
 	.App {
@@ -14,8 +15,7 @@
 	.App {
 		height: 100%;
 		width: 100vw;
-		background-image: url("./assets/sv.jpg");
-		background-size: 95rem;
+
 		background-repeat: repeat;
 	}
 }

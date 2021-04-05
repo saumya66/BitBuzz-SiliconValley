@@ -1,6 +1,21 @@
 .footer {
-	position: relative;
+	position: fixed;
 	bottom: 0;
 	text-align: center;
 	width: 100%;
+}
+.fa-twitter {
+	color: #1da1f2;
+}
+a {
+	color: #f4ac02;
+}
+
+@media only screen and (max-width: 500px) {
+	.footer {
+		position: relative;
+		bottom: 0;
+		text-align: center;
+		width: 100%;
+	}
 }

@@ -41,13 +41,14 @@ class Convert extends React.Component {
 	render() {
 		return (
 			<div className="converter">
+				<h5 className="title">BitBuzz</h5>
 				<p>
-					Inspired from the the Bitcoin volatility scene from the show, this
-					WebApp also produces a loud noise when the price of BTC drops in
-					real-time live.{" "}
+					Inspired from the the Bitcoin volatility scene from the show Silicon
+					Valley, BitBuzz also produces a loud noise when the price of BTC drops
+					in real-time live.{" "}
 				</p>
 				<p className="mb-0">
-					Btw, Let's check what your Bitcoin would be worth{" "}
+					Btw, Let's check what your Bitcoin is worth literally now !
 				</p>
 				<Form className="m-0">
 					<Form.Group>
@@ -55,14 +56,14 @@ class Convert extends React.Component {
 							<h5>BTC</h5>
 						</Form.Label>
 						<Form.Control
-							placeholder="Enter amount of BTC you have"
+							placeholder="Enter amount of BTC"
 							onChange={this.handleChange}
 						/>
 						<Form.Text>Add a '.' at the end</Form.Text>
 					</Form.Group>
 				</Form>
 				<p className="result">
-					Awesome you own 💲 {Math.round(this.state.dolOwn)} or ₹{" "}
+					Great you own 💲 {Math.round(this.state.dolOwn)} or ₹{" "}
 					{Math.round(this.state.inrOwn)}! 💰
 				</p>
 			</div>

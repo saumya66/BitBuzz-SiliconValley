@@ -4,7 +4,7 @@
 	padding: 20px;
 	margin: 20px;
 	box-shadow: 5px 5px 20px;
-
+	position: relative;
 	background: rgba(0, 0, 0, 0.5);
 }
 .result {
@@ -14,4 +14,13 @@
 h5,
 p {
 	color: white;
+}
+
+.form-text {
+	color: white;
+}
+.title {
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
 }
