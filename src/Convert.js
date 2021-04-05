@@ -41,8 +41,15 @@ class Convert extends React.Component {
 	render() {
 		return (
 			<div className="converter">
-				<p>Let's check what your Bitcoin would be worth </p>
-				<Form>
+				<p>
+					Inspired from the the Bitcoin volatility scene from the show, this
+					WebApp also produces a loud noise when the price of BTC drops in
+					real-time live.{" "}
+				</p>
+				<p className="mb-0">
+					Btw, Let's check what your Bitcoin would be worth{" "}
+				</p>
+				<Form className="m-0">
 					<Form.Group>
 						<Form.Label>
 							<h5>BTC</h5>

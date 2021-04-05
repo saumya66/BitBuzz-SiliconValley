@@ -3,5 +3,19 @@
 	width: 100vw;
 	background-image: url("./assets/sv.jpg");
 	background-size: 95rem;
-	height: 100%;
+}
+@media only screen and (max-width: 600px) {
+	.App {
+		height: 100vh;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.App {
+		height: 100%;
+		width: 100vw;
+		background-image: url("./assets/sv.jpg");
+		background-size: 95rem;
+		background-repeat: repeat;
+	}
 }
