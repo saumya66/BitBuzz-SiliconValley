@@ -1,4 +1,4 @@
-#BitBuzz
+# BitBuzz 💲
 
 I am a pretty big fan of the show called - Silicon Valley
  
