@@ -62,7 +62,7 @@ class Convert extends React.Component {
 					</Form.Group>
 				</Form>
 				<p className="result">
-					Great you own 💲 {Math.round(this.state.dolOwn)} or ₹{" "}
+					Awesome you own 💲 {Math.round(this.state.dolOwn)} or ₹{" "}
 					{Math.round(this.state.inrOwn)}! 💰
 				</p>
 			</div>
